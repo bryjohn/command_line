@@ -1,0 +1,8 @@
+cd
+pwd
+cd bjohn
+cd bjoh
+dir
+cd brjoh
+dir
+echo test

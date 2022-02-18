@@ -1,0 +1,23 @@
+SEND(1)                          User Commands                      Send(1)
+
+NAME        
+
+       SEND - Sends output of java class to a text file.
+
+SYNOPSIS        
+
+       send [java]... [java class]... [FILE]...
+
+DESCRIPTION         
+
+       Output of java class is written to FILE. java class and FILE 
+       MUST be in same directory. Current Directory is used to 
+       look for java class and FILE.
+       
+EXAMPLES         
+
+       Send java Test.class Test.txt
+
+AUTHOR         
+
+       Written by Bryan Johnsen

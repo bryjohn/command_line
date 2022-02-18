@@ -1,0 +1,43 @@
+ATTRIB(1)                          User Commands                         ATTRIB(1)
+
+NAME        
+
+       ATTRIB - List and modify file attributes
+
+SYNOPSIS        
+
+       Attrib [+ or -]... [OPTION]... [FILE]...
+
+DESCRIPTION         
+
+       list or modify files in current directory.
+
+       With nothing following attrib default will show attributes of 
+       current directory.
+       
+       + adds attributes 
+       - removes attributes
+       
+       with no file after option default will modify all file attributes
+       in current directory.
+       
+OPTIONS
+	   h - Hidden file
+	   s - System file
+	   r - Read only file
+	   a - Archive file
+	   
+EXAMPLES         
+
+       attrib +h
+              modifies all files in directory to be hidden.
+
+       attrib file
+       		  lists attributes of 'file' 
+       		  
+       attrib -r file
+       		  file 'file' is no longer read only
+
+AUTHOR         
+
+       Written by Bryan Johnsen

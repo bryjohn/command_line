@@ -1,0 +1,60 @@
+LINK(1)                         User Commands                        LINK(1)
+
+NAME         top
+
+       link - call the link function to create a link to a file
+
+SYNOPSIS         top
+
+       link FILE1 FILE2
+       link OPTION
+
+DESCRIPTION         top
+
+       Call the link function to create a link named FILE2 to an existing
+       FILE1.
+
+       --help display this help and exit
+
+       --version
+              output version information and exit
+
+AUTHOR         top
+
+       Written by Michael Stone.
+
+REPORTING BUGS         top
+
+       GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+       Report any translation bugs to <https://translationproject.org/team/>
+
+COPYRIGHT         top
+
+       Copyright © 2019 Free Software Foundation, Inc.  License GPLv3+: GNU
+       GPL version 3 or later <https://gnu.org/licenses/gpl.html>.
+       This is free software: you are free to change and redistribute it.
+       There is NO WARRANTY, to the extent permitted by law.
+
+SEE ALSO         top
+
+       link(2)
+
+       Full documentation <https://www.gnu.org/software/coreutils/link>
+       or available locally via: info '(coreutils) link invocation'
+
+COLOPHON         top
+
+       This page is part of the coreutils (basic file, shell and text
+       manipulation utilities) project.  Information about the project can
+       be found at ⟨http://www.gnu.org/software/coreutils/⟩.  If you have a
+       bug report for this manual page, see
+       ⟨http://www.gnu.org/software/coreutils/⟩.  This page was obtained
+       from the tarball coreutils-8.31.tar.xz fetched from
+       ⟨http://www.gnutls.org/download.html⟩ on 2019-11-19.  If you discover
+       any rendering problems in this HTML version of the page, or you
+       believe there is a better or more up-to-date source for the page, or
+       you have corrections or improvements to the information in this
+       COLOPHON (which is not part of the original manual page), send a mail
+       to man-pages@man7.org
+
+GNU coreutils 8.31               March 2019                          LINK(1)
